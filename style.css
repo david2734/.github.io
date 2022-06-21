@@ -1,0 +1,122 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+}
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #7e00e1;
+	padding: 24px 0;
+}
+.header__title {
+	font-size: 48px;
+	color: #fff;
+}
+
+.header__input {
+	border-radius: 70px;
+	background-color: rgba(175, 72, 255, 1);
+	border: none;
+	outline: none;
+	padding: 8px 0 8px 16px;
+	flex: 1;
+	max-width: 550px;
+	color: #fff;
+}
+.header__input::placeholder {
+	color: #fff;
+}
+
+.header__login {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__login > p {
+	margin: 0 26px 0 0;
+	font-size: 36px;
+}
+main {
+	height: 100px;
+	background-color: #6c3afc;
+	flex: 1;
+	padding: 25px 30px 68px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	font-size: 32px;
+	background-color: #7e00e1;
+	height: 100px;
+	flex:1;
+	padding:55px 143px;
+}
+
+.start-block {
+	background-image: url("./img/jojobg1.png");
+	background-repeat: no-repeat;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 76px 40px 118px;
+	background-size: cover;
+}
+.start-block__text {
+	font-size: 32px;
+	text-align: center;
+	background: #9fdae7;
+	border-radius: 60px;
+	max-width: 800px;
+}
+.start-block__text > span {
+	color: #c60000;
+}
+.photo {
+	max-height: 388px;
+	position: relative;
+}
+.photo > figcaption {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	font-size: 40px;
+	background: rgba(255, 255, 255, 0.45);
+}
+.start-block__photo > figcaption{
+	background: rgba(255, 255, 255, 0.55);
+}
+.block2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 36px;
+	background-image: url(./img/jojobg2.jpg);
+	background-repeat: no-repeat;
+	height: 1412px;
+	align-content: space-between;
+	background-size: cover;
+}
+.footerp{
+	display: flex;
+	justify-content: space-between;
+	font-size: 32px;
+	color:#fff
+}
